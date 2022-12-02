@@ -9,11 +9,11 @@ def anagrams(anagramas):
     return print(list(resultado.values()))
 
 lista = []
-numagramas = int(input('cuantas palabras quieres agrupar en anagramas?'))
-print('empezamos con el ultimo')
+numagramas = int(input('palabras a agrupar en anagramas?'))
+print('ultimo')
 while len(lista)<=numagramas-1:
     global anagramas
-    anagramas = lista.append(input(f'dime el anagrama numero {int(numagramas)-len(lista)} '))
+    anagramas = lista.append(input(f' anagrama numero {int(numagramas)-len(lista)} '))
 else:
     anagrams(lista)
 anagrams(["hola", "aloh"])
