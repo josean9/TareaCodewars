@@ -18,3 +18,4 @@ def rgb(r, g, b):
     cadena.__add__(b/2)
   else:
     cadena.__add__("00")
+print(rgb(255, 255, 255))
